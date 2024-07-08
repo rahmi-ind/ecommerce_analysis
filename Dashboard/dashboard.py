@@ -5,11 +5,11 @@ import streamlit as st
 from babel.numbers import format_currency
 
 # Load cleaned data
-sum_order_items_df = pd.read_csv("sum_order_items.csv")
-mean_review_score_df = pd.read_csv("mean_review_score.csv")
-monthly_orders_df = pd.read_csv("monthly_orders.csv")
-highest_orders_city_df = pd.read_csv("highest_orders_city.csv")
-customer_segment_df = pd.read_csv("customer_segment.csv")
+sum_order_items_df = pd.read_csv("./Dashboard/sum_order_items.csv")
+mean_review_score_df = pd.read_csv("./Dashboard/mean_review_score.csv")
+monthly_orders_df = pd.read_csv("./Dashboard/monthly_orders.csv")
+highest_orders_city_df = pd.read_csv("./Dashboard/highest_orders_city.csv")
+customer_segment_df = pd.read_csv("./Dashboard/customer_segment.csv")
 
 
 st.header('E-Commerce Public Dataset Dashboard :sparkles:')
